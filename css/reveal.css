@@ -57,6 +57,9 @@ body {
   		font-size: 30px;
   	}
   }
+  /*********************************************
+   old Footer
+
   .reveal footer{
       position: fixed;
       height: 40px;
@@ -77,6 +80,13 @@ body {
   .reveal footer .copyright a img{
       vertical-align: middle;
   }
+  *********************************************/
+  .reveal .footer {
+  position: absolute;
+  bottom: 1em;
+  left: 1em;
+  font-size: 0.5em;
+}
 /*********************************************
  * VIEW FRAGMENTS
  *********************************************/
